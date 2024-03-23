@@ -1,0 +1,502 @@
+{
+  /* -------------------------------------------------------------------------- */
+  /*                                    Font                                    */
+  /* -------------------------------------------------------------------------- */
+
+  /* -------------------------- Global font settings -------------------------- */
+  "editor.fontLigatures": "'calt', 'liga', 'dlig', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08'",
+
+  /* ------------------------- Settings for Monaspace ------------------------- */
+  "editor.fontFamily": "Monaspace Neon",
+  "editor.fontSize": 15,
+  "editor.fontVariations": "100",
+  "editor.lineHeight": 22,
+
+  /* -------------------------------------------------------------------------- */
+  /*                                     Vim                                    */
+  /* -------------------------------------------------------------------------- */
+  "vim.highlightedyank.enable": true,
+  "vim.neovimPath": "/usr/bin/nvim",
+  "vim.sneak": true,
+  "vim.visualstar": true,
+  "vim.easymotion": true,
+  "vim.useSystemClipboard": true,
+
+  /* -------------------------------------------------------------------------- */
+  /*                                    C/C++                                   */
+  /* -------------------------------------------------------------------------- */
+  "C_Cpp.codeAnalysis.updateDelay": 0,
+  "C_Cpp.default.cppStandard": "c++20",
+  "C_Cpp.default.cStandard": "c17",
+  "C_Cpp.errorSquiggles": "enabled",
+  "C_Cpp.formatting": "clangFormat",
+  "C_Cpp.inlayHints.parameterNames.hideLeadingUnderscores": false,
+  "C_Cpp.inlayHints.parameterNames.suppressWhenArgumentContainsName": false,
+  "C_Cpp.inlayHints.autoDeclarationTypes.enabled": true,
+  "C_Cpp.codeAnalysis.clangTidy.fallbackConfig": "{Checks: 'bugprone-*,cppcoreguidelines-*,modernize-*,performance-*,portability-*,readability-*'}",
+  "C_Cpp.intelliSenseMemoryLimit": 8192,
+  "C_Cpp.codeAnalysis.clangTidy.enabled": true,
+  "C_Cpp.intelliSenseUpdateDelay": 500,
+
+  /* -------------------------------------------------------------------------- */
+  /*                             Code Spell Checker                             */
+  /* -------------------------------------------------------------------------- */
+  "cSpell.enabledLanguageIds": ["markdown"],
+  "cSpell.language": "en,pt,pt_BR",
+  "cSpell.userWords": [],
+
+  /* -------------------------------------------------------------------------- */
+  /*                               Comment Divider                              */
+  /* -------------------------------------------------------------------------- */
+  "comment-divider.languagesMap": {
+    "c": ["//", ">>"],
+    "cpp": ["//", ">>"]
+  },
+
+  /* -------------------------------------------------------------------------- */
+  /*                               Comment Anchors                              */
+  /* -------------------------------------------------------------------------- */
+  "commentAnchors.tags.anchors": {
+    "ANCHOR": {
+      "iconColor": "default",
+      "highlightColor": "#A8C023",
+      "scope": "file"
+    },
+    "TODO": {
+      "iconColor": "blue",
+      "highlightColor": "#3ea8ff",
+      "scope": "workspace"
+    },
+    "FIXME": {
+      "iconColor": "red",
+      "highlightColor": "#F44336",
+      "scope": "workspace"
+    },
+    "STUB": {
+      "iconColor": "purple",
+      "highlightColor": "#BA68C8",
+      "scope": "file"
+    },
+    "NOTE": {
+      "iconColor": "orange",
+      "highlightColor": "#FFB300",
+      "scope": "file"
+    },
+    "REVIEW": {
+      "iconColor": "green",
+      "highlightColor": "#64DD17",
+      "scope": "workspace"
+    },
+    "SECTION": {
+      "iconColor": "blurple",
+      "highlightColor": "#896afc",
+      "scope": "workspace",
+      "behavior": "region"
+    },
+    "LINK": {
+      "iconColor": "#2ecc71",
+      "highlightColor": "#2ecc71",
+      "scope": "workspace",
+      "behavior": "link"
+    }
+  },
+  "commentAnchors.tags.matchPrefix": [
+    "<!--",
+    "//",
+    "/*",
+    "/**",
+    "*",
+    "#",
+    "--"
+  ],
+
+  /* -------------------------------------------------------------------------- */
+  /*                            Discord Rich Presence                           */
+  /* -------------------------------------------------------------------------- */
+  "vscord.status.details.text.editing": "📁 {workspace}",
+  "vscord.status.details.text.viewing": "📁 {workspace}",
+  "vscord.status.state.text.editing": "✏️ {file_name}{file_extension}",
+  "vscord.status.state.text.viewing": "👁️ {file_name}{file_extension}",
+  "vscord.status.idle.check": false,
+  "vscord.status.idle.enabled": false,
+
+  /* -------------------------------------------------------------------------- */
+  /*                                 Error Lens                                 */
+  /* -------------------------------------------------------------------------- */
+  "errorLens.fontSize": "14",
+  "errorLens.statusBarMessageType": "closestProblem",
+  "errorLens.fontFamily": "Monaspace Neon",
+  "errorLens.margin": "1ch",
+  "errorLens.messageTemplate": "($count) $message",
+  "errorLens.statusBarColorsEnabled": true,
+  "errorLens.statusBarMessageEnabled": true,
+
+  /* -------------------------------------------------------------------------- */
+  /*                                     Git                                    */
+  /* -------------------------------------------------------------------------- */
+  "git.autofetch": true,
+
+  /* -------------------------------------------------------------------------- */
+  /*                                     Lua                                    */
+  /* -------------------------------------------------------------------------- */
+  "Lua.diagnostics.ignoredFiles": "Disable",
+  "Lua.completion.callSnippet": "Both",
+  "Lua.telemetry.enable": false,
+  // "Lua.workspace.library": ["/home/luizffgv/Documents/Teardown API/tdapi.lua"],
+  "Lua.hint.setType": true,
+
+  /* -------------------------------------------------------------------------- */
+  /*                                  Markdown                                  */
+  /* -------------------------------------------------------------------------- */
+  "markdown.preview.scrollEditorWithPreview": false,
+  "markdown.extension.italic.indicator": "_",
+  "markdown.extension.syntax.plainTheme": true,
+
+  /* -------------------------------------------------------------------------- */
+  /*                          Markdown Preview Enhanced                         */
+  /* -------------------------------------------------------------------------- */
+  "markdown-preview-enhanced.breakOnSingleNewLine": false,
+
+  /* -------------------------------------------------------------------------- */
+  /*                                  Prettier                                  */
+  /* -------------------------------------------------------------------------- */
+  "prettier.proseWrap": "always",
+
+  /* -------------------------------------------------------------------------- */
+  /*                                   Python                                   */
+  /* -------------------------------------------------------------------------- */
+  "python.linting.pylintEnabled": true,
+  "python.formatting.provider": "black",
+  "python.linting.pylintArgs": ["--generate-members"],
+
+  /* -------------------------------------------------------------------------- */
+  /*                                  Languages                                 */
+  /* -------------------------------------------------------------------------- */
+  "files.associations": {
+    "*.h": "c",
+    "*.ixx": "cpp",
+    "*.tpp": "cpp"
+  },
+  "[astro]": {
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.tabSize": 2
+  },
+  "[c]": {
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "[cpp]": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "[csv]": {
+    "editor.wordWrap": "on"
+  },
+  "[html]": {
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  },
+  "[lua]": {
+    "editor.formatOnSave": true
+  },
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "editor.rulers": [88]
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  },
+  "[javascript]": {
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[java]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4
+  },
+  "[json]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "files.trimTrailingWhitespace": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.wordWrap": "off"
+  },
+  "[rust]": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4
+  },
+  "[shellscript]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "[yaml]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  /* -------------------------------------------------------------------------- */
+  /*                                   Editor                                   */
+  /* -------------------------------------------------------------------------- */
+  "editor.guides.bracketPairs": "active",
+  "editor.inlayHints.padding": true,
+  "editor.minimap.enabled": true,
+  "editor.minimap.maxColumn": 80,
+  "editor.minimap.showSlider": "always",
+  "editor.minimap.autohide": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.scrollbar.vertical": "visible",
+  "editor.scrollbar.verticalScrollbarSize": 4,
+  "editor.stickyScroll.enabled": true,
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.renderWhitespace": "trailing",
+  "editor.cursorSmoothCaretAnimation": "off",
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.inlineSuggest.enabled": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSurroundingLines": 8,
+  // Shut up the screen reader
+  "editor.accessibilitySupport": "off",
+  "editor.quickSuggestionsDelay": 0,
+  "editor.renderControlCharacters": true,
+  "editor.renderLineHighlight": "all",
+  // "editor.rulers": [80, 100],
+  "editor.tabCompletion": "on",
+  "editor.matchBrackets": "near",
+  "editor.smoothScrolling": true,
+  "editor.inlineSuggest.showToolbar": "always",
+  "editor.lineNumbers": "relative",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "storage.modifier",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "storage.type",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "keyword.operator",
+        "settings": {
+          "fontStyle": "bold"
+        }
+      }
+    ]
+  },
+
+  /* -------------------------------------------------------------------------- */
+  /*                                   Window                                   */
+  /* -------------------------------------------------------------------------- */
+  "window.title": "${activeEditorShort}",
+  "window.dialogStyle": "custom",
+  "window.menuBarVisibility": "hidden",
+
+  /* -------------------------------------------------------------------------- */
+  /*                                  Workbench                                 */
+  /* -------------------------------------------------------------------------- */
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.wrapTabs": true,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "workbench.list.smoothScrolling": true,
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.colorCustomizations": {
+    // "statusBar.background": "#111217",
+    // "statusBar.noFolderBackground": "#111217",
+    // "statusBar.debuggingBackground": "#111217",
+    // "activityBar.background": "#111217",
+    // "activityBar.foreground": "#f44",
+    // "sideBar.background": "#111217",
+    // "sideBarSectionHeader.background": "#111217",
+    // "sideBarSectionHeader.foreground": "#0af",
+    // "sideBarSectionHeader.border": "#0000",
+    // "titleBar.activeBackground": "#111217",
+    // "titleBar.inactiveBackground": "#111217",
+    // "editorGroupHeader.tabsBackground": "#111217",
+    // "tab.inactiveBackground": "#111217",
+    // "tab.inactiveForeground": "#0af",
+    // "sideBarTitle.foreground": "#ffffff",
+    // "panel.background": "#111217",
+    // "panel.border": "#0000",
+    // "contrastBorder": "#111217",
+    // "editor.background": "#111217",
+    // "button.background": "#0af",
+    // "button.foreground": "#000",
+    // "list.activeSelectionBackground": "#f44"
+  },
+  "workbench.colorTheme": "Remedy - Dark (Tilted)",
+  "workbench.iconTheme": "gruvbox-icon-theme",
+
+  /* -------------------------------------------------------------------------- */
+  /*                                     Zen                                    */
+  /* -------------------------------------------------------------------------- */
+  "zenMode.hideLineNumbers": false,
+
+  /* -------------------------------------------------------------------------- */
+  /*                                  Debugger                                  */
+  /* -------------------------------------------------------------------------- */
+  "debug.inlineValues": "auto",
+
+  /* -------------------------------------------------------------------------- */
+  /*                                  Terminal                                  */
+  /* -------------------------------------------------------------------------- */
+  "terminal.integrated.enableBell": true,
+  "terminal.integrated.fontFamily": "monospace",
+
+  /* -------------------------------------------------------------------------- */
+  /*                                    Files                                   */
+  /* -------------------------------------------------------------------------- */
+  "files.autoSave": "off",
+  "files.trimTrailingWhitespace": true,
+
+  /* -------------------------------------------------------------------------- */
+  /*                             Random bullshit go                             */
+  /* -------------------------------------------------------------------------- */
+  "screencastMode.fontSize": 20,
+  "html.autoClosingTags": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "keyboard.dispatch": "keyCode",
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": true,
+    "markdown": false,
+    "scminput": false,
+    "cpp": true,
+    "c": true
+  },
+  "cmake.buildEnvironment": {},
+  "cmake.configureEnvironment": {},
+  "git.ignoreSubmodules": true,
+  "files.simpleDialog.enable": true,
+  "breadcrumbs.icons": false,
+  "window.restoreFullscreen": true,
+  "terminal.integrated.smoothScrolling": true,
+  "telemetry.telemetryLevel": "off",
+  "clang-tidy.checks": [
+    "bugprone-*",
+    "cppcoreguidelines-*",
+    "modernize-*",
+    "performance-*",
+    "portability-*",
+    "readability-*",
+    "!clang-diagnostic-*"
+  ],
+  "hexeditor.columnWidth": 16,
+  "hexeditor.showDecodedText": true,
+  "hexeditor.defaultEndianness": "little",
+  "hexeditor.inspectorType": "aside",
+  "python.linting.pydocstyleEnabled": true,
+  "codesnap.transparentBackground": true,
+  "codesnap.backgroundColor": "#0000",
+  "python.analysis.typeCheckingMode": "basic",
+  "vscode-pets.petSize": "medium",
+  "vscode-pets.throwBallWithMouse": true,
+  "rust-analyzer.check.command": "clippy",
+  "terminal.integrated.fontSize": 16,
+  "typescript.format.enable": false,
+  "javascript.format.enable": false,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "js/ts.implicitProjectConfig.checkJs": true,
+  "clangd.detectExtensionConflicts": false,
+  "i18n-ally.displayLanguage": "en",
+  "window.zoomLevel": -1
+}
